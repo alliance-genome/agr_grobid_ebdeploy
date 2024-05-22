@@ -4,3 +4,6 @@ eb-init:
 
 eb-create:
 	eb create grobid-server --region=us-east-1 --cname="grobid-server" --elb-type application --timeout 30
+
+eb-deploy:
+	eb deploy grobid-server --region=us-east-1 --timeout 30
