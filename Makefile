@@ -7,3 +7,6 @@ eb-create:
 
 eb-deploy:
 	eb deploy grobid-server --region=us-east-1 --timeout 30
+
+eb-terminate:
+	eb terminate grobid-server --timeout 30
