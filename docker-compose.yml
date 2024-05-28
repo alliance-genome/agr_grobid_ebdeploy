@@ -3,7 +3,7 @@ version: "3.2"
 services:
   grobid.app:
     container_name: agr.grobid.server
-    image: grobid/grobid:0.8.0
+    image: 100225593120.dkr.ecr.us-east-1.amazonaws.com/agr_grobid_env:latest
     logging:
       driver: gelf
       options:
